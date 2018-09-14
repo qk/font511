@@ -9,6 +9,10 @@ To change linespace in URxvt add the following to your `~/.Xresources` file:
 
     URxvt.lineSpace: 0
 
+Font511s adds 1 pixel extra horizontal space for better readability. Some characters extend into the extra space to make them more readable.
+
+In font611 all characters extend into the extra space. The font ended up looking very much like FixedSemicondensed. In my opinion, font511s is the most readable of the bunch, so that's what I use most of the time.
+
 # Installation
 
 Download release, then proceed as follows:
