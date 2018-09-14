@@ -19,4 +19,11 @@ Right click font511.fon, click 'Install'.
 
 ## Linux
 
-Create folder `~/.fonts`, copy font511.bdf into it. 
+Create folder `~/.fonts`, copy font511.bdf into it, and run
+
+    mkfontdir ~/.fonts
+    mkfontscale ~/.fonts
+    xset +fp ~/.fonts
+    xset fp rehash
+    fc-cache
+    fc-cache -fv
